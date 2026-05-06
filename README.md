@@ -28,7 +28,7 @@ Each file in this repository contains:
 
 ---
 
-## Goal
+## 🎯 Goal
 
 * Improve problem-solving skills
 * Understand core JavaScript concepts
