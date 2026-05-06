@@ -1,4 +1,4 @@
-### 📘 JavaScript Practice Repository
+## 📘 JavaScript Practice Repository
 
 Welcome to my JavaScript practice repository! 🚀
 This repo contains all the tasks, exercises, and mini projects that I am doing while learning JavaScript.
