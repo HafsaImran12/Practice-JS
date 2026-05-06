@@ -152,3 +152,21 @@
 // let str = num.toString();
 // console.log(str);
 // console.log(typeof str);
+
+// -------------------> DATE AND TIME <-------------------
+
+// let rightNow = new Date();
+// let theDay = rightNow.getDay();
+// console.log(theDay);
+
+
+// let dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// let now = new Date();
+// let theDay = now.getDay();
+// let nameOfToday = dayNames[theDay]
+
+// let dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+// let now = new Date()
+// let theDay = now.getDay()
+// let nameOfToday=dayNames[theDay]
+// console.log(nameOfToday)
