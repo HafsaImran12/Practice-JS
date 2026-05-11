@@ -170,3 +170,30 @@
 // let theDay = now.getDay()
 // let nameOfToday=dayNames[theDay]
 // console.log(nameOfToday)
+
+
+
+// -------------------> FUNCTIONS <-------------------
+
+
+
+// ----> Function Declaration <----
+
+function add(num1, num2) {
+    console.log(num1+num2);
+    
+}
+add(2,4)
+
+// ----> Function Expression <----
+
+let add = function (num1, num2) {
+    return num1 + num2;
+}
+console.log(add(2,4));
+
+// ----> Arrow Function <----(ES 6)
+
+add = (num1, num2) => num1 + num2;
+console.log(add(2,4));
+
