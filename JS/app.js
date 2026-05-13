@@ -153,6 +153,9 @@
 
 // -------------------> DATE AND TIME <-------------------
 
+// const d = new Date();
+// console.log(d);
+
 // let rightNow = new Date();
 // let theDay = rightNow.getDay();
 // console.log(theDay);
@@ -213,12 +216,11 @@
 //     }
 //     }
 //     console.log(count);
-    
+
 // };
 // countVowel("hafsa ayesha");
 
 // ----> CallBack Function <----
-
 
 // let arr = [1, 2, 3, 4]
 // arr.forEach(printVal)
@@ -243,18 +245,16 @@
 
 // function myFunction(num) {
 //     console.log(num);
-    
+
 // }
 
 // ----> ARRAY METHODS () <----
 
 // ----------practice----------
 
-
 // let arr = [45, 97, 54, 96, 23, 67, 91];
 // let result = arr.filter(num => num > 90)
 // console.log(`Students score above 90 = ${result}`);
-
 
 // let n = parseInt(prompt("Enter a number"))
 // let arr = []
@@ -262,7 +262,6 @@
 //    arr[i-1]=i
 // }
 // console.log(arr);
-
 
 // let sum = arr.reduce((res, curr) => {
 //     return res + curr
@@ -272,3 +271,6 @@
 //     return res * curr
 // })
 // console.log(`Factorial is ${product}`);
+
+
+
