@@ -1,11 +1,20 @@
 // -----------> DOM MANIPULATION ( DOM = Document Object Model) <-------------
 
+
+// CONSOLE.DIR() => JavaScript me kisi object ki detailed properties dekhne ke liye use hota hai.
+
+
 // ----> GET ID <----
 
 // let id = document.getElementById("email")
 // console.dir(id)
+// console.log(id)
 
 // ----> GET CLASS <----
+
+// let cl = document.getElementsByClassName("contact")
+// console.dir(cl)
+// console.log(cl)
 
 // ----> GET TAG <----
 
@@ -61,3 +70,19 @@
 
 // let id= div.getAttribute("id")
 // console.log(id);
+
+// CHAT GPT Practice Questions
+// 01
+// let id = document.getElementById("title");
+// console.dir(id);
+// title.innerText = "Hello";
+// // 02
+// let p = document.getElementById("para");
+// console.log(p.innerHTML);
+
+// let div = document.querySelector("#box");
+// box.innerText = "new html"
+
+// let tags = document.getElementById("tag")
+// console.log(tags.tagName);
+

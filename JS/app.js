@@ -272,5 +272,37 @@
 // })
 // console.log(`Factorial is ${product}`);
 
+// -------------------> OBJECTS <-------------------
 
+// ----> OBJECT <----
 
+// let Student={
+//     name : "Hafsa",
+//     course : "web",
+//     city : "Karachi",
+//     hobby: () => {
+//         console.log("Reading");
+
+//     }
+// }
+// console.log(Student);
+
+// ----> CONSTRUCTOR FUNCTION <----
+
+function Student(name, course, city) {
+  this.name = name;
+  this.course = course;
+  this.city = city;
+    this.hobby = (hob) => {
+        console.log(hob);
+        
+  };
+}
+
+let student1 = new Student("Hafsa", "Web", "karachi");
+student1.hobby("reading");
+// console.log(student1);
+console.table(student1);
+let student2 = new Student("Ayesha", "Graphics", "Islamabad");
+
+console.log(student2);
