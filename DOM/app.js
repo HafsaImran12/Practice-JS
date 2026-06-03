@@ -1,8 +1,6 @@
 // -----------> DOM MANIPULATION ( DOM = Document Object Model) <-------------
 
-
 // CONSOLE.DIR() => JavaScript me kisi object ki detailed properties dekhne ke liye use hota hai.
-
 
 // ----> GET ID <----
 
@@ -86,3 +84,34 @@
 // let tags = document.getElementById("tag")
 // console.log(tags.tagName);
 
+// EVENTS
+
+// let greet = () => {
+//   alert("Hello World");
+//   console.log("how are you");
+// };
+
+// let change = (event) => {
+//   console.log("mouse is wheeling");
+
+//   event.target.src = "./images/cat.jpg";
+// };
+
+// let out = (event) => {
+//   event.target.src = "./images/butterfly.jpg";
+// };
+
+// let check = (event) => {
+//     console.log(event.key);
+//     alert("key pressed")
+// }
+
+
+
+document.getElementById("btn").addEventListener("click", () => {
+    alert("hello")
+})
+
+document.getElementById("field").addEventListener("focus", () => {
+    console.log("clicking");
+})
