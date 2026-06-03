@@ -126,20 +126,64 @@
 //     heading.innerText = `hey girl ${count}`
 // })
 
-let read = document.getElementById("readMore");
-let moreContent =
-  "lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nam possimus,autem fugiat quod aut similique deleniti voluptatem consequaturnecessitatibus.";
+// ReadMore / ReadLess
 
-let lessContent =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, a.";
+// let read = document.getElementById("readMore");
+// let moreContent =
+//   "lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nam possimus,autem fugiat quod aut similique deleniti voluptatem consequaturnecessitatibus.";
 
-read.addEventListener("click", () => {
-  let paragraph = document.getElementById("para");
-  if (read.innerHTML == "Read more") {
-      paragraph.innerHTML += moreContent;
-      read.innerHTML = "Read less";
-    } else {
-      paragraph.innerHTML = lessContent;
-        read.innerHTML = "Read more";   
+// let lessContent =
+//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, a.";
+
+// read.addEventListener("click", () => {
+//   let paragraph = document.getElementById("para");
+//   if (read.innerHTML == "Read more") {
+//       paragraph.innerHTML += moreContent;
+//       read.innerHTML = "Read less";
+//     } else {
+//       paragraph.innerHTML = lessContent;
+//         read.innerHTML = "Read more";
+//     }
+// });
+
+// Change Image
+
+// let changeVehical = document.getElementById("changeVehicle");
+// let picture = document.getElementById("picture");
+// picture.addEventListener("mouseover", () => {
+//   let path =
+//     picture.src === "http://127.0.0.1:5500/DOM/images/cat.jpg"
+//       ? "http://127.0.0.1:5500/DOM/images/butterfly.jpg"
+//             : "http://127.0.0.1:5500/DOM/images/cat.jpg";
+//     picture.src = path;
+// })
+// picture.addEventListener("mouseout", () => {
+//   let path =
+//     picture.src === "http://127.0.0.1:5500/DOM/images/butterfly.jpg"
+//     ? "http://127.0.0.1:5500/DOM/images/cat.jpg"
+//     : "http://127.0.0.1:5500/DOM/images/butterfly.jpg";
+//     picture.src = path;
+// })
+// changeVehical.addEventListener("click", () => {
+//   // if (picture.src === "http://127.0.0.1:5500/DOM/images/cat.jpg") {
+//   //     picture.src = "http://127.0.0.1:5500/DOM/images/butterfly.jpg"
+//   // } else {
+//   //     picture.src = "http://127.0.0.1:5500/DOM/images/cat.jpg"
+//   // }
+//   let path =
+//     picture.src === "http://127.0.0.1:5500/DOM/images/cat.jpg"
+//       ? "http://127.0.0.1:5500/DOM/images/butterfly.jpg"
+//             : "http://127.0.0.1:5500/DOM/images/cat.jpg";
+//     picture.src = path;
+// });
+
+// Target Tag
+
+let btn = document.getElementById("style")
+let paragraph = document.getElementsByTagName("p")
+
+btn.addEventListener("click", () => {
+    for (let para of paragraph) {
+        para.className= "change"
     }
-});
+})
