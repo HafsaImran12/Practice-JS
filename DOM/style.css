@@ -1,0 +1,12 @@
+.hello{
+    border: 1px solid green;
+}
+
+.change{
+    color: white;
+    background-color: red;
+}
+
+.change1{
+    text-transform: uppercase;
+}

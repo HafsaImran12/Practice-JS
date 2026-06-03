@@ -113,3 +113,33 @@
 // document.getElementById("field").addEventListener("focus", () => {
 //     console.log("clicking");
 // })
+
+// CSS through JS
+
+// let button = document.getElementById("btn")
+
+// let count = 10
+
+// button.addEventListener("click", () => {
+//     let heading = document.getElementById("heading")
+//     heading.className += " change change1"
+//     heading.innerText = `hey girl ${count}`
+// })
+
+let read = document.getElementById("readMore");
+let moreContent =
+  "lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nam possimus,autem fugiat quod aut similique deleniti voluptatem consequaturnecessitatibus.";
+
+let lessContent =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, a.";
+
+read.addEventListener("click", () => {
+  let paragraph = document.getElementById("para");
+  if (read.innerHTML == "Read more") {
+      paragraph.innerHTML += moreContent;
+      read.innerHTML = "Read less";
+    } else {
+      paragraph.innerHTML = lessContent;
+        read.innerHTML = "Read more";   
+    }
+});
