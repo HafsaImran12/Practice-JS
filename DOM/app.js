@@ -106,12 +106,10 @@
 //     alert("key pressed")
 // }
 
+// document.getElementById("btn").addEventListener("click", () => {
+//     alert("hello")
+// })
 
-
-document.getElementById("btn").addEventListener("click", () => {
-    alert("hello")
-})
-
-document.getElementById("field").addEventListener("focus", () => {
-    console.log("clicking");
-})
+// document.getElementById("field").addEventListener("focus", () => {
+//     console.log("clicking");
+// })
